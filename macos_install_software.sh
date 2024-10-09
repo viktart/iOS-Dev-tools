@@ -33,6 +33,7 @@
 #   - VLC
 #   - Dash
 #   - Android File Transfer
+#   - MonitorControl
 ### Command line tools ###
 #   - Homebrew
 #   - Oh My Zsh
@@ -48,6 +49,12 @@
 #   - Fira Code font
 
 #====================================================================================
+
+# Install Xcode command line tools
+xcode-select --install
+
+# Install Xcode
+softwareupdate --install 'Xcode' --agree-to-license
 
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -88,12 +95,6 @@ brew install --cask iterm2
 # Install Raycast
 brew install --cask raycast
 
-# Install Xcode command line tools
-xcode-select --install
-
-# Install Xcode
-softwareupdate --install 'Xcode' --agree-to-license
-
 # Install Visual Studio Code
 brew install --cask visual-studio-code
 
@@ -101,7 +102,7 @@ brew install --cask visual-studio-code
 brew install --cask karabiner-elements
 
 # Install monitor-control
-brew install --cask monitor-control
+brew install --cask monitorcontrol
 
 # Install Bartender
 brew install --cask bartender
