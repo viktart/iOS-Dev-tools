@@ -45,6 +45,7 @@
 #   - howdoi
 #   - tldr
 #   - gh (Github CLI)
+#   - Fira Code font
 
 #====================================================================================
 
@@ -149,6 +150,9 @@ brew install --cask dash
 
 # Install Android File Transfer
 brew install --cask android-file-transfer
+
+# Install Fira Code font
+brew install font-fira-code
 
 echo "Install script finished."
 
